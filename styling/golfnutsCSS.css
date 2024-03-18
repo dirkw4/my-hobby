@@ -1,0 +1,311 @@
+/* CSS Styling for three pages*/
+/*------------------------------
+   CSS Styling for index page
+------------------------------*/
+#indexbody {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+#index-main-header {
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+#welcome-header-h1 {
+  font-size: 36px;
+  display: inline-block;
+  margin-inline: 10px;
+  font-family: Arial, sans-serif;
+}
+
+#welcome-image-header-h2 {
+  font-size: 24px;
+  color: white;
+}
+
+#welcome-image-text1 {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  color: whitesmoke;
+}
+
+#icon-links-h5 {
+  font-size: 12px;
+  font-style: bold;
+  display: inline-block;
+  margin: 50px;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+#welcome-image-text2 {
+  font-family: "Courier New", Courier, monospace;
+  color: gray;
+  font-style: italic;
+  font-size: smaller;
+}
+
+#welcome-landing {
+  display: block;
+  max-height: 100%;
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+#welcome-image-img {
+  text-align: center;
+}
+
+.quotes-main-block {
+  display: block;
+  background-color: lightgray;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+
+#quotes-header {
+  font-size: 24px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#quote-class {
+  font-style: italic;
+  color: #666;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+
+#quote1 {
+  margin-left: 0%;
+  color: rgb(13, 131, 23);
+}
+
+#quote2 {
+  margin-left: 50%;
+  color: rgb(12, 12, 11);
+}
+
+#quote3 {
+  margin-left: 0%;
+  color: rgb(13, 131, 23);
+}
+
+#quote4 {
+  margin-left: 50%;
+  color: rgb(12, 12, 11);
+}
+
+#quote5 {
+  margin-left: 0%;
+  color: rgb(13, 131, 23);
+}
+
+#footer {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+/*------------------------------
+  index page styling end
+--------------------------------*/
+
+/*--------------------------------
+  Top10 Golf Courses page styling
+----------------------------------*/
+#top10GCs-body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+#main-top-header {
+    font-size: 36px;
+    display: inline-block;
+    margin-inline: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#top10-source-header {
+    font-size: 12px;
+    font-style: italic;
+    display: inline-block;
+    margin: 2px;
+    font-family: Arial, sans-serif;
+}
+
+#icon-links-h5 {
+    font-size: 12px;
+    font-style: bold;
+    display: inline-block;
+    margin: 50px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+#top10GC-table-heading2{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+#top10GC-table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-color: black;
+    position: relative;
+}
+
+#top10GC-table,th {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+#top10GC-table,td {
+    background:rgba(31,44,108,.65);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+/*-------------------------------------
+  Top10 Golf Courses page styling end
+---------------------------------------*/
+
+/*-------------------------------------
+  What's in the bag page styling
+---------------------------------------*/
+#witb-body {
+    margin: 0;
+    padding: 0;
+    background-color: "";
+}
+#witb-main-header-h1 {
+    font-size: 40px;
+    margin-inline: 10px;
+    display: inline-block;
+    color: rgb(15, 14, 95);
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    
+    
+}
+
+#icon-links-h5 {
+    font-size: 12px;
+    font-style: bold;
+    display: inline-block;
+    margin: 50px;
+    color: black;
+}
+
+#whats-in-the-bag-header-h2{
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+    position: relative;
+}
+
+.my-gear-block{
+    background: url(../images/mp24-feature-hero-desktop.jpeg);
+    background-size: cover;
+    margin-top: 2%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 890px;
+}
+
+.my-gear-block:before{
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: " ";
+    margin-top: 0%;
+    left: 0;
+    background: rgba(31,44,108,.65);
+    background-size: cover;
+    width: 100%;
+    height: 890px;
+}
+
+#mygear-table, th, td {
+    border: 1px solid white;
+    border-collapse:collapse;
+    width: auto;
+    text-align: center;
+    border-color: white;
+    position: relative;
+    background:none;
+}
+
+#mygear-table, th {
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+    color: whitesmoke;
+    position: relative;
+}
+
+#mygear-table, td {
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+    color: whitesmoke;
+    position: relative;
+}
+
+.shopping-links-block {
+    background-color:rgba(31,44,108,.65);
+    align-items: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    margin-top: 2%;
+}
+
+#shoppinglinks-header-h2 {
+    font-size: 24px;
+    color:rgb(15, 14, 95);
+}
+
+.subscribe-block {
+    background-color: rgba(31,44,108,.65);
+    padding: 20px;
+    margin-top: 2%;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#signup-header {
+    font-size: 24px;
+    color:rgb(15, 14, 95);
+    
+}
+
+.input-text-subscribe{
+    width: 300px;
+    height: 50px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.subscribe-btn{
+    width: 150px;
+    height: 50px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+/*-------------------------------------
+  What's in the bag page styling end
+---------------------------------------*/
+
+/*# sourceMappingURL=golfnutsCSS.css.map */
