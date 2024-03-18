@@ -41,3 +41,10 @@ This is a html webpage file and does not require a formal installation process. 
 4. Note that the index.html, Top10Courses.html, WITB.html files, images folder and styling folder should all be on the same level.
 5. Now you can open the index.html file with any browser like Edge or Chrome.
 
+![Alt Text](MyHobby-page-at-work/myhobby-page-landingimg.JPG)
+![Alt Text](MyHobby-page-at-work/myhobby-page-landingimg-navigate-to-page2.JPG)
+![Alt Text](MyHobby-page-at-work/myhobby-page2-top10-courses.JPG)
+![Alt Text](MyHobby-page-at-work/myhobby-page2-top10-courses-navigate-to-page3-WITH.JPG)
+![Alt Text](MyHobby-page-at-work/myhobby-page3-WITB-page-table.JPG)
+![Alt Text](MyHobby-page-at-work/myhobby-page3-WITB-page-links-subscribers.JPG)
+
